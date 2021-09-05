@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<!---Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jean's Cheat Sheet</title>
+    <link href="/Users/jeanperez/Desktop/Project_Build_Your_Own_Cheat_Sheet/styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<!-- End head-->
+
+<body>
+    <header id="header">
+        <h1 id="title1"> Jean's Cheat Sheet</h1>
+    </header>
+    <!--End header-->
+    <section>
+        <img id="logo" src="/Users/jeanperez/Desktop/Project_Build_Your_Own_Cheat_Sheet/Resourses/Img/Jean abreu.jpg" alt "logo"></img>
+        <h1 class="title">Basic HTML structure</h1>
+        <ol id="list1">
+            <li>
+                &lt;!DOCTYPE&gt;
+            </li>
+            <li>
+                &lt;html&gt;
+            </li>
+
+            <li>
+                &lt;head&gt;
+            </li>
+            <li>
+                &lt;Title&gt;website title
+            </li>
+            <li>
+                &lt;/head&gt;
+            </li>
+
+            <li>
+                &lt;Body&gt;
+            </li>
+            <li> content of website ... </li>
+            <li>
+                &lt;/Body&gt;
+            </li>
+
+            <li>
+                &lt;/html&gt;
+            </li>
+        </ol>
+    </section>
+
+    <!--End Section #1-->
+    <section>
+        <h1 class="title"> Basic html tags</h1>
+        <h2 class="title2">How to do a Html Heading</h2>
+        <p>HTML headings are HTML elements which are defined with tags &lt;h1&gt; to &lt;h6&gt; where &lt;h1&gt; defines the most important tag and &lt;h6&gt; defines the less important tag.</p>
+        <p><strong>Sample HTML code with headings as below:</strong></p>
+        <p><code>&lt;h1&gt; This is heading1 &lt;/h1&gt;<br>
+    &lt;h2&gt; This is heading2 &lt;/h2&gt;<br>
+    &lt;h3&gt; This is heading3 &lt;/h3&gt;<br>
+    &lt;h4&gt; This is heading4 &lt;/h4&gt;</code></p>
+        <h2 class="title2">The P element paragraph!</h2>>
+        <p>HTML paragraph is a HTML element which will be defined using tag &lt;p&gt; and sample code as below:</p>
+        <p><code>&lt;p&gt; This is a paragraph &lt;/p&gt;<br>
+            <p><code>&lt;p&gt; This is another paragraph &lt;/p&gt;</code></p>
+        <h2 class="title2"> How to insert an image element in HTML</h2>
+        <p><a href="https://static-assets.codecademy.com/components/curriculum/path/front-end-engineer-career-path/curriculum-card.svg">HTML images</a> is an HTML element and defined with a tag &lt;img&gt;, and we need to mention attributes such as src of
+            the image, alt means alternative text</p>
+        <p><strong>Code:</strong></p>
+        <p><code>&lt;img src=”exampleimg.jpg” alt=”A white and yellow img”&gt;</code></p>
+        <p><strong>Output:</strong></p>
+        <p><img id="pic1" src="https://static-assets.codecademy.com/components/curriculum/path/front-end-engineer-career-path/curriculum-card.svg" alt="Front end engineering image from code academy"><noscript>&lt;img class="alignnone size-full wp-image-137873" src="https://cdn.educba.com/academy/wp-content/uploads/2019/02/Html-image.png" alt="Html image" width="172" height="126" /&gt;</noscript></p>
+        <h2 class="title2">How to do a List in an HTML</h2>
+        <p>HTML lists is a HTML element and defined using tags &lt;ul&gt; or &lt;ol&gt; where &lt;ul&gt; is unordered list and &lt;ol&gt; is ordered list</p>
+        <p><strong>Code:</strong></p>
+        <p><code>&lt;ul&gt;<br>
+    &lt;li&gt; Coffee&lt;/li&gt;<br>
+    &lt;li&gt; Tea &lt;/li&gt;<br>
+    &lt;li&gt; Milk &lt;/li&gt;<br>
+    &lt;/ul&gt;</code></p>
+        <h2 class="title2">How to create a table in an HTML document?</h2>
+        <p>HTML table is a HTML element and it can be defined using tag &lt;table&gt; and rows with tag &lt;tr&gt; and cells with tag &lt;td&gt; and code as below:</p>
+        <p><strong>Code:</strong></p>
+        <p><code>&lt;table&gt;<br>
+    &lt;tr&gt;<br>
+    &lt;th&gt;Firstname&lt;/th&gt;<br>
+    &lt;th&gt; Lastname&lt;/th&gt;<br>
+    &lt;th&gt;Age&lt;/th&gt;<br>
+    &lt;/tr&gt;<br>
+    &lt;tr&gt;<br>
+    &lt;td&gt;Jill&lt;/td&gt;<br>
+    &lt;td&gt;Smith&lt;/td&gt;<br>
+    &lt;td&gt;50&lt;/td&gt;<br>
+    &lt;/tr&gt;<br>
+    &lt;/table&gt;</code></p>
+        <p>
+            To learn more about tables check out the code academy
+            <a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-tables/cheatsheet">cheatsheet</a>
+        </p>
+        <h2 class="title2">How to link to another web</h2>
+        <p>HTML links are HTML elements, and they can be defined using the tag &lt;a&gt; and the sample code is below:</p>
+        <p><strong>Code:</strong></p>
+        <p><code>&lt;a href=”https://www.codeacademy.com”&gt;This is a link &lt;/a&gt;</code></p>
+        <h2 class="title2">What's the style attribute?</h2>
+        <p>HTML attribute style can be used with a combination of any HTML elements such as &lt;p&gt; and the sample code is as below:</p>
+        <p><strong>Code:</strong></p>
+        <p><code>&lt;p style=”color:red”&gt; I am a paragraph &lt;/p&gt;</code></p>
+        <p><strong>Output:</strong></p>
+        <p style=color:red>Im a paragraph</p>
+    </section>
+    <!--End of Html explanation-->
+    <section>
+        <h1 class="title">List of most used Html Tags & Description </h1>
+        <table id="htmlc">
+            <tbody>
+                <tr>
+                    <th>Tag</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>&lt;!--...--&gt;</td>
+                    <td>Defines a comment</td>
+                </tr>
+                <tr>
+                    <td>&lt;!DOCTYPE&gt;&nbsp;</td>
+                    <td>Defines the document type</td>
+                </tr>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Defines a hyperlink</td>
+                </tr>
+                <tr>
+                    <td>&lt;abbr&gt;</td>
+                    <td>Defines an abbreviation or an acronym</td>
+                </tr>
+                <tr>
+                    <td>&lt;address&gt;</td>
+                    <td>Defines contact information for the author/owner of a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;applet&gt;</td>
+                    <td><span>Not supported in HTML5. Use &lt;embed&gt; or &lt;object&gt; instead.<br></span>Defines an embedded applet</td>
+                </tr>
+                <tr>
+                    <td>&lt;area&gt;</td>
+                    <td>Defines an area inside an image map</td>
+                </tr>
+                <tr>
+                    <td>&lt;article&gt;</td>
+                    <td>Defines an article</td>
+                </tr>
+                <tr>
+                    <td>&lt;aside&gt;</td>
+                    <td>Defines content aside from the page content</td>
+                </tr>
+                <tr>
+                    <td>&lt;audio&gt;</td>
+                    <td>Defines embedded sound content</td>
+                </tr>
+                <tr>
+                    <td>&lt;b&gt;</td>
+                    <td>Defines bold text</td>
+                </tr>
+                <tr>
+                    <td>&lt;base&gt;
+                    </td>
+                    <td>Specifies the base URL/target for all relative URLs in a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;bdi&gt;</td>
+                    <td>Isolates a part of text that might be formatted in a different direction from other text outside it</td>
+                </tr>
+                <tr>
+                    <td>&lt;bdo&gt;</td>
+                    <td>Overrides the current text direction</td>
+                </tr>
+                <tr>
+                    <td>&lt;blockquote&gt;</td>
+                    <td>Defines a section that is quoted from another source</td>
+                </tr>
+                <tr>
+                    <td>&lt;body&gt;</td>
+                    <td>Defines the document's body</td>
+                </tr>
+                <tr>
+                    <td>&lt;br&gt;</td>
+                    <td>Defines a single line break</td>
+                </tr>
+                <tr>
+                    <td>&lt;button&gt;</td>
+                    <td>Defines a clickable button</td>
+                </tr>
+                <tr>
+                    <td>&lt;canvas&gt;</td>
+                    <td>Used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
+                </tr>
+                <tr>
+                    <td>&lt;caption&gt;</td>
+                    <td>Defines a table caption</td>
+                </tr>
+                <tr>
+                    <td>&lt;cite&gt;</td>
+                    <td>Defines the title of a work</td>
+                </tr>
+                <tr>
+                    <td>&lt;code&gt;</td>
+                    <td>Defines a piece of computer code</td>
+                </tr>
+                <tr>
+                    <td>&lt;col&gt;</td>
+                    <td>Specifies column properties for each column within a &lt;colgroup&gt; element&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&lt;colgroup&gt;</td>
+                    <td>Specifies a group of one or more columns in a table for formatting</td>
+                </tr>
+                <tr>
+                    <td>&lt;data&gt;</td>
+                    <td>Adds a machine-readable translation of a given content</td>
+                </tr>
+                <tr>
+                    <td>
+                        <&lt;datalist&gt;</td>
+                            <td>Specifies a list of pre-defined options for input controls</td>
+                </tr>
+                <tr>
+                    <td>&lt;dd&gt;</td>
+                    <td>Defines a description/value of a term in a description list</td>
+                </tr>
+                <tr>
+                    <td>&lt;del&gt;</td>
+                    <td>Defines text that has been deleted from a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;details&gt;</td>
+                    <td>Defines additional details that the user can view or hide</td>
+                </tr>
+                <tr>
+                    <td>&lt;dfn&gt;</td>
+                    <td>Specifies a term that is going to be defined within the content</td>
+                </tr>
+                <tr>
+                    <td>&lt;dialog&gt;</td>
+                    <td>Defines a dialog box or window</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                    <td>Defines a section in a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;dl&gt;</a>
+                    </td>
+                    <td>Defines a description list</td>
+                </tr>
+                <tr>
+                    <td>&lt;dt&gt;</td>
+                    <td>Defines a term/name in a description list</td>
+                </tr>
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td>Defines emphasized text&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&lt;embed&gt;</td>
+                    <td>Defines a container for an external application</td>
+                </tr>
+                <tr>
+                    <td>&lt;fieldset&gt;</td>
+                    <td>Groups related elements in a form</td>
+                </tr>
+                <tr>
+                    <td>&lt;figcaption&gt;</td>
+                    <td>Defines a caption for a &lt;figure&gt; element</td>
+                </tr>
+                <tr>
+                    <td>&lt;figure&gt;</td>
+                    <td>Specifies self-contained content</td>
+                </tr>
+                <tr>
+                    <td>&lt;footer&gt;</td>
+                    <td>Defines a footer for a document or section</td>
+                </tr>
+                <tr>
+                    <td>&lt;form&gt;</td>
+                    <td>Defines an HTML form for user input</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt; to &lt;h6&gt;</td>
+                    <td> Defines HTML headings</td>
+                </tr>
+                <tr>
+                    <td>&lt;head&gt;</td>
+                    <td>Contains metadata/information for the document</td>
+                </tr>
+                <tr>
+                    <td>&lt;header&gt;</td>
+                    <td>Defines a header for a document or section</td>
+                </tr>
+                <tr>
+                    <td>&lt;hr&gt;</td>
+                    <td> Defines a thematic change in the content</td>
+                </tr>
+                <tr>
+                    <td>&lt;html&gt;</td>
+                    <td>Defines the root of an HTML document</td>
+                </tr>
+                <tr>
+                    <td>&lt;i&gt;</td>
+                    <td>Defines a part of text in an alternate voice or mood</td>
+                </tr>
+                <tr>
+                    <td>&lt;iframe&gt;</td>
+                    <td>Defines an inline frame</td>
+                </tr>
+                <tr>
+                    <td>&lt;img&gt;</td>
+                    <td>Defines an image</td>
+                </tr>
+                <tr>
+                    <td>&lt;input&gt;</td>
+                    <td>Defines an input control</td>
+                </tr>
+                <tr>
+                    <td>&lt;ins&gt;</td>
+                    <td>Defines a text that has been inserted into a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;kbd&gt;</td>
+                    <td>Defines keyboard input</td>
+                </tr>
+                <tr>
+                    <td>&lt;label&gt;</td>
+                    <td>Defines a label&nbsp;for an &lt;input&gt; element</td>
+                </tr>
+                <tr>
+                    <td>&lt;legend&gt;</td>
+                    <td>Defines a caption for a &lt;fieldset&gt; element</td>
+                </tr>
+                <tr>
+                    <td>&lt;li&gt;</td>
+                    <td>Defines a list item</td>
+                </tr>
+                <tr>
+                    <td>&lt;link&gt;</td>
+                    <td>Defines the relationship between a document and an external resource (most used to link to style sheets)</td>
+                </tr>
+                <tr>
+                    <td>&lt;main&gt;</td>
+                    <td>Specifies the main content of a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;map&gt;</td>
+                    <td>Defines an image map</td>
+                </tr>
+                <tr>
+                    <td>&lt;mark&gt;</td>
+                    <td>Defines marked/highlighted text</td>
+                </tr>
+                <tr>
+                    <td>&lt;meta&gt;</td>
+                    <td>Defines metadata about an HTML document</td>
+                </tr>
+                <tr>
+                    <td>&lt;meter&gt;</td>
+                    <td>Defines a scalar measurement within a known range (a gauge)</td>
+                </tr>
+                <tr>
+                    <td>&lt;nav&gt;</td>
+                    <td>Defines navigation links</td>
+                </tr>
+                <tr>
+                    <td>&lt;object&gt;</td>
+                    <td>Defines a container for an external application</td>
+                </tr>
+                <tr>
+                    <td>&lt;ol&gt;</td>
+                    <td>Defines an ordered list</td>
+                </tr>
+                <tr>
+                    <td>&lt;optgroup&gt;</td>
+                    <td>Defines a group of related options in a drop-down list</td>
+                </tr>
+                <tr>
+                    <td>&lt;option&gt;</td>
+                    <td>Defines an option in a drop-down list</td>
+                </tr>
+                <tr>
+                    <td>&lt;output&gt;</td>
+                    <td>Defines the result of a calculation</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Defines a paragraph</td>
+                </tr>
+                <tr>
+                    <td>&lt;param&gt;</td>
+                    <td>Defines a parameter for an object</td>
+                </tr>
+                <tr>
+                    <td>&lt;picture&gt;</td>
+                    <td>Defines a container for multiple image resources</td>
+                </tr>
+                <tr>
+                    <td>&lt;pre&gt;</td>
+                    <td>Defines preformatted text</td>
+                </tr>
+                <tr>
+                    <td>&lt;progress&gt;</td>
+                    <td>Represents the progress of a task</td>
+                </tr>
+                <tr>
+                    <td>&lt;q&gt;</td>
+                    <td>Defines a short quotation</td>
+                </tr>
+                <tr>
+                    <td>&lt;rp&gt;</td>
+                    <td>Defines what to show in browsers that do not support ruby annotations</td>
+                </tr>
+                <tr>
+                    <td>&lt;rt&gt;</td>
+                    <td>Defines an explanation/pronunciation of characters (for East Asian typography)
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;ruby&gt;</td>
+                    <td>Defines a ruby annotation (for East Asian typography)</td>
+                </tr>
+                <tr>
+                    <td>&lt;s&gt;</td>
+                    <td>Defines text that is no longer correct</td>
+                </tr>
+                <tr>
+                    <td>&lt;samp&gt;</td>
+                    <td>Defines sample output from a computer program</td>
+                </tr>
+                <tr>
+                    <td>&lt;script&gt;</td>
+                    <td>Defines a client-side script</td>
+                </tr>
+                <tr>
+                    <td>&lt;section&gt;</td>
+                    <td>Defines a section in a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;select&gt;</td>
+                    <td>Defines a drop-down list</td>
+                </tr>
+                <tr>
+                    <td>&lt;small&gt;</td>
+                    <td>Defines smaller text</td>
+                </tr>
+                <tr>
+                    <td>&lt;source&gt;</td>
+                    <td>Defines multiple media resources for media elements (&lt;video&gt; and &lt;audio&gt;)</td>
+                </tr>
+                <tr>
+                    <td>&lt;span&gt;</td>
+                    <td>Defines a section in a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;strong&gt;</td>
+                    <td>Defines important text</td>
+                </tr>
+                <tr>
+                    <td>&lt;style&gt;</td>
+                    <td>Defines style information for a document</td>
+                </tr>
+                <tr>
+                    <td>&lt;sub&gt;</td>
+                    <td>Defines subscripted text</td>
+                </tr>
+                <tr>
+                    <td>&lt;summary&gt;</td>
+                    <td>Defines a visible heading for a &lt;details&gt; element</td>
+                </tr>
+                <tr>
+                    <td>&lt;sup&gt;</td>
+                    <td>Defines superscripted text</td>
+                </tr>
+                <tr>
+                    <td>&lt;svg&gt;</td>
+                    <td>Defines a container for SVG graphics</td>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Defines a table</td>
+                </tr>
+                <tr>
+                    <td>&lt;tbody&gt;</td>
+                    <td>Groups the body content in a table</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Defines a cell in a table</td>
+                </tr>
+                <tr>
+                    <td>&lt;template&gt;</td>
+                    <td>Defines a container for content that should be hidden when the page loads</td>
+                </tr>
+                <tr>
+                    <td>&lt;textarea&gt;</td>
+                    <td>Defines a multiline input control (text area)</td>
+                </tr>
+                <tr>
+                    <td>&lt;tfoot&gt;</td>
+                    <td>Groups the footer content in a table</td>
+                </tr>
+                <tr>
+                    <td>&lt;th&gt;</td>
+                    <td>Defines a header cell in a table</td>
+                </tr>
+                <tr>
+                    <td>&lt;thead&gt;</td>
+                    <td>Groups the header content in a table</td>
+                </tr>
+                <tr>
+                    <td>&lt;time&gt;</td>
+                    <td>Defines a specific time (or datetime)</td>
+                </tr>
+                <tr>
+                    <td>&lt;title&gt;</td>
+                    <td>Defines a title for the document</td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Defines a row in a table</td>
+                </tr>
+                <tr>
+                    <td>&lt;track&gt;</td>
+                    <td>Defines text tracks for media elements (&lt;video&gt; and &lt;audio&gt;)</td>
+                </tr>
+                <tr>
+                    <td>&lt;u&gt;</td>
+                    <td>Defines some text that is unarticulated and styled differently from normal text
+                    </td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                    <td>Defines an unordered list</td>
+                </tr>
+                <tr>
+                    <td>&lt;var&gt;</td>
+                    <td>Defines a variable</td>
+                </tr>
+                <tr>
+                    <td>&lt;video&gt;</td>
+                    <td>Defines embedded video content</td>
+                </tr>
+                <tr>
+                    <td>&lt;wbr&gt;</td>
+                    <td>Defines a possible line-break</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            For more information about HTML check out the code academy <a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet">Cheatsheet </a>
+        </p>
+    </section>
+
+    <!--End HTML Section-->
+
+    <section>
+        <H1 class="title">What is CSS</H1>
+        <P>
+            <ol>
+                <li> CSS stands for Cascading Style Sheets</li>
+                <li> CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li> CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li> External stylesheets are stored in CSS files</li>
+
+            </ol>
+
+        </P>
+    </section>
+
+    <section>
+        <h1 class="title">
+            CSS syntax
+        </h1>
+        <h2>
+            A CSS rule consists of a selector and a declaration block.
+        </h2>
+        <h3>
+            The Css syntax is composed by:
+        </h3>
+        <p>
+            <ul>
+                <li> The selector points to the HTML element you want to style.</li>
+
+                <li> The declaration block contains one or more declarations separated by semicolons.</li>
+
+                <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+
+                <li> Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.</li>
+
+
+            </ul>
+        </p>
+    </section>
+    <!--End css-->
+    <footer>
+        <p id="foot">Copyright 2021</p>
+    </footer>
+
+</body>
